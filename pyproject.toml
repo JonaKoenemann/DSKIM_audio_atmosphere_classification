@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "DSKIM audio atmosphere classification"
+version = "0.1.0"
+description = "Classification of the atmosphere in a stadium based on the audio file."
+authors = "Jona Koenemann"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
