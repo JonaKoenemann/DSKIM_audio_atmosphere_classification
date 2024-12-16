@@ -1,0 +1,31 @@
+{
+    "labelfile": "project-6-at-2024-11-23-15-47-9e286610.json",
+    "sample_rate": 48000,
+    "snippet_sec": 1,
+    "labels": {
+        "Disappointment": 0,
+        "Boring": 1,
+        "Chanting/Singing": 2,
+        "Celebration": 3,
+        "Excitement": 4
+    },
+    "sources": [
+        "HKvsBHUTAN001.wav",
+        "HKvsBHUTAN002.wav",
+        "HKvsBRUNEI.wav",
+        "2023716VS.wav",
+        "1ExcitementDisappointment.MP3.wav",
+        "2ExcitementCelebration.MP3.wav",
+        "3Boring.MP3.wav",
+        "Boring_001.wav",
+        "Celebration_001.MP3.wav",
+        "Celebration_002.MP3.wav",
+        "Combine.MP3.wav",
+        "Disappointment_001.wav",
+        "Disappointment_002.wav",
+        "Excitement_001.MP3.wav",
+        "HongKongvsSingaporeInternationalFriendlyMongkokStadium.wav",
+        "test.MP3.wav"
+    ],
+    "comment": "no shift"
+}
