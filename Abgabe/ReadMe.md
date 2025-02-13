@@ -43,3 +43,9 @@ This repository contains scripts for training and evaluating an Audio Spectrogra
 - **Key Features**:
   - Applies noise, pitch shifting, and time stretching.
   - Trains model on augmented data and evaluates confusion matrices.
+
+### 5. `AST_class_weights_reduce_DataLabels.py`
+- **Purpose**: Merging Labels together to improve differentiation.
+- **Key Features**:
+  - Merging "Excitement" and "Celebration"
+  - Merging "Disappointment" and "Boring"
