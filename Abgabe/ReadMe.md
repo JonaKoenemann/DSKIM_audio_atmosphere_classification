@@ -49,3 +49,4 @@ This repository contains scripts for training and evaluating an Audio Spectrogra
 - **Key Features**:
   - Merging "Excitement" and "Celebration"
   - Merging "Disappointment" and "Boring"
+  - Trains model on augmented and merged date
