@@ -18,9 +18,9 @@ This repository contains scripts for training and evaluating an Audio Spectrogra
   - Class imbalance in the dataset.
   - Difficulty distinguishing between similar labels (e.g., "Excitement" vs. "Celebration").
 - **Solutions**:
-  - Merging similar labels to reduce complexity.
-  - Data augmentation for underrepresented classes.
   - Class-weighted loss to address imbalance.
+  - Data augmentation for underrepresented classes.
+  - Merging similar labels to reduce complexity.
 
 ---
 
