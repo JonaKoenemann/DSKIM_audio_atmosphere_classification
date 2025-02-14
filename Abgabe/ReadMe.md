@@ -17,12 +17,12 @@ This repository contains scripts for training and evaluating an Audio Spectrogra
 
 ## Files Description
 
-### 1. `AST_class_weights_reduce_DataLabels.py`
-- **Purpose**: Explore label merging and data augmentation to improve metrics.
+### 1. `0_data_exploration.py`
+- **Purpose**: Exploratory data analysis (EDA) for audio dataset.
 - **Key Features**:
-  - Merges labels like "Celebration" & "Excitement" to reduce model complexity.
-  - Augments "Disappointment" with noise, pitch shifting, and time stretching.
-  - Evaluates accuracy and confusion matrices after each modification.
+  - Visualizes waveforms, spectrograms, and frequency spectra.
+  - Analyzes label distribution.
+  - Plays audio samples for each class.
 
 ### 2. `AST_class_weights.py`
 - **Purpose**: Baseline training script for the AST model with class-weighted loss.
@@ -31,12 +31,12 @@ This repository contains scripts for training and evaluating an Audio Spectrogra
   - Applies class weights to handle imbalanced data.
   - Includes training logs, loss curves, and evaluation metrics.
 
-### 3. `data_exploration.py`
-- **Purpose**: Exploratory data analysis (EDA) for audio dataset.
+### 3. `1_AST_class_weights_reduce_DataLabels.py`
+- **Purpose**: Explore label merging and data augmentation to improve metrics.
 - **Key Features**:
-  - Visualizes waveforms, spectrograms, and frequency spectra.
-  - Analyzes label distribution.
-  - Plays audio samples for each class.
+  - Merges labels like "Celebration" & "Excitement" to reduce model complexity.
+  - Augments "Disappointment" with noise, pitch shifting, and time stretching.
+  - Evaluates accuracy and confusion matrices after each modification.
 
 ### 4. `Labels_data_aug.py`
 - **Purpose**: Augment specific labels ("Excitement" and "Disappointment") to improve differentiation.
