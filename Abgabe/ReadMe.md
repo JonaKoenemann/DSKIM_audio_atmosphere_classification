@@ -8,7 +8,7 @@ This repository contains scripts for training and evaluating an Audio Spectrogra
     - [1. `0_data_exploration.py`](#1-0_data_explorationpy)
     - [2. `AST_class_weights.py`](#2-ast_class_weightspy)
     - [3. `1_AST_class_weights_reduce_DataLabels.py`](#3-1_ast_class_weights_reduce_datalabelspy)
-    - [4. `Labels_data_aug.py`](#4-labels_data_augpy)
+    - [4. `2_Labels_data_aug.py`](#4-2_labels_data_augpy)
     - [5. `AST_class_weights_reduce_DataLabels.py`](#5-ast_class_weights_reduce_datalabelspy)
 
 ## Project Overview
@@ -47,7 +47,7 @@ This repository contains scripts for training and evaluating an Audio Spectrogra
   - Augments "Disappointment" with noise, pitch shifting, and time stretching.
   - Evaluates accuracy and confusion matrices after each modification.
 
-### 4. `Labels_data_aug.py`
+### 4. `2_Labels_data_aug.py`
 - **Purpose**: Augment specific labels ("Excitement" and "Disappointment") to improve differentiation.
 - **Key Features**:
   - Applies noise, pitch shifting, and time stretching.
