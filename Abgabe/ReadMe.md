@@ -2,6 +2,15 @@
 
 This repository contains scripts for training and evaluating an Audio Spectrogram Transformer (AST) model on an audio classification task. The project focuses on handling class imbalance through label merging, data augmentation, and class-weighted loss functions.
 
+- [Audio Classification with AST Model](#audio-classification-with-ast-model)
+  - [Project Overview](#project-overview)
+  - [Files Description](#files-description)
+    - [1. `0_data_exploration.py`](#1-0_data_explorationpy)
+    - [2. `AST_class_weights.py`](#2-ast_class_weightspy)
+    - [3. `1_AST_class_weights_reduce_DataLabels.py`](#3-1_ast_class_weights_reduce_datalabelspy)
+    - [4. `Labels_data_aug.py`](#4-labels_data_augpy)
+    - [5. `AST_class_weights_reduce_DataLabels.py`](#5-ast_class_weights_reduce_datalabelspy)
+
 ## Project Overview
 
 - **Objective**: Classify audio clips into emotion-based categories (e.g., "Celebration", "Disappointment").
